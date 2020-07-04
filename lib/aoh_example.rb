@@ -32,6 +32,6 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  new_value = "Joelle van Dyne (PGOAT)"
-  literal_aoh[1][:name] = new_value
+   aoh[row][key] = new_value
+   aoh_update
 end
