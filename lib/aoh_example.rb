@@ -32,5 +32,5 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  literal_aoh[1][:name] = new_value
+  literal_aoh[1][:name] = ${new_value)
 end
